@@ -1,0 +1,141 @@
+body {
+    margin: 0%;
+}
+.main-wrapper {
+    background-color: aquamarine;
+    height: 100vh;
+    background-image:
+        linear-gradient( to bottom, #000000bb, #00000022, #000000bb),
+        url('./background01.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.center-text{
+    font-weight: 1000;
+    font-family: "Sarabun", sans-serif;
+    font-style: normal;
+    font-size: 120px;
+    text-shadow: 2px 2px 30px rgb(54, 54, 54);
+}
+.sarabun-regular {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Fixed Positon Grid */
+.fixed-tr {
+    position: fixed;
+    top: 5px;
+    right: 3%;
+    width: 20%;
+}
+.tr-text{
+    font-weight: 600;
+    font-family: "Sarabun", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 30px rgb(54, 54, 54);
+}
+.fixed-tl {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.fixed-nav {
+    position: fixed;
+    top: 15px;
+    left: 10%;
+}
+.fixed-center {
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    top: 70%;
+    left: 59%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -250px; /* Negative half of width. */
+}
+/* Fixated Positon Grid */
+
+a {
+    font-weight: 400;
+    font-family: "Sarabun", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 30px rgb(54, 54, 54);
+    text-decoration: none;
+}
+
+
+/* button center hover */
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    font-weight: 1000;
+    font-family: "Sarabun", sans-serif;
+    font-style: normal;
+    font-size: 22px;
+}
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-center {
+    background-image: linear-gradient(to right, #fc2731, #e26d37, #e43a43, #e26d37);
+}
+/* button center hover */
+
+/* button top right hover */
+.btn-hover-tr {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 20px;
+    color: #fff;
+    cursor: pointer;    
+    border: none;
+
+    text-align:center;
+    font-weight: 900;
+    font-family: "Sarabun", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+.btn-hover-tr:focus {
+    outline: none;
+}
+.btn-hover-tr.color-tr {
+    background-image: rgb(255, 255, 255);
+    color: black;
+}
+/* button top right hover */
